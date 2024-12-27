@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: my-app-service
 spec:
-  type: LoadBalancer  # or NodePort if you're not using a cloud provider
+  type: NodePort  # or NodePort if you're not using a cloud provider
   ports:
     - port: 80
       targetPort: 8082  # Change this to your app's port
