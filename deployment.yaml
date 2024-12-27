@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: <your-dockerhub-username>/<your-image-name>:<tag>
+        image: ayushmehra2000/myproject1:5
         ports:
         - containerPort: 8082  # Change this to your app's port
